@@ -10,4 +10,5 @@ x, counts = np.unique(flipper_length_values, return_counts=True)
 
 fig, ax = plt.subplots()
 ax.bar (x,counts)
-plt.show()
+#plt.show()
+
