@@ -43,3 +43,13 @@ plt.show()
 
 
 
+import seaborn as sns
+
+penguins = sns.load_dataset("penguins")
+
+species_counts = penguins['species'].value_counts().reset_index()
+species_counts.columns = ['species', 'count']
+
+
+# Create a violin plot for the 'species' variable
+sns.catplot(data=species_counts, x='species', y='count', kind="bar")
