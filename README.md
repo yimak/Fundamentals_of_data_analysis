@@ -5,7 +5,14 @@ by Issam Chaaraddine
 
 
 ## About 
-This repository contains 
+This repository contains
+
+
+
+
+
+
+The second project is about analysing the Iris flower dataset associated with Ronald A Fischer 
 
 
 
